@@ -1,14 +1,14 @@
 body {
     font-size: 13px;
+    font-family: Verdana;
     background-color: black;
     text-align: center;
+    color: white
 }
 
 h1 {
-    font-family: Verdana;
     font-weight: Normal;
     font-size: 50px;
-    color: White;
     text-align: Center;
 }
 
@@ -17,11 +17,34 @@ a {
     font-size: 16px;
     display: flex;
     justify-content: center;
+    padding-bottom: 30px;
 }
 
 h2 {
-    font-family: Verdana;
     font-weight: 300;
     font-size: 42px;
-    color: White;
 }
+
+p {
+    font-size: 21px;
+    color: gray;
+}
+
+footer {
+    text-align: right;
+    color: gray;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+img {
+    display: block;
+    margin: auto;   
+}
+
+.icon {
+    padding-top: 30px;
+    padding-bottom: 0px;
+}
+
+
